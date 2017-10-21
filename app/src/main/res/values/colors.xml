@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--#FF03A9F4   #FF0288D1-->
+    <color name="colorPrimary">#88eade</color>
+    <color name="colorPrimaryDark">#30C0B5</color>
+    <color name="colorAccent">#30C0B5</color>
+    <color name="home_price_color">#efb002</color>
+    <color name="waveColor">#c888eade</color>
+    <color name="nav_text_color_mormal">#D3D3D3</color>
+    <color name="bg_color">#fff8f8f8</color>
+    <color name="text_color_normal">#000</color>
+    <color name="background_base_color">#F1F3F6</color>
+    <color name="white">#FFF</color>
+    <color name="font_normal">#555555</color>
+    <color name="tab_text_normal">#9E9E9E</color>
+    <color name="tab_text_select">#30C0B5</color>
+    <color name="login_line_gray">#c5c5c5</color>
+    ----------------------程序中使用的颜色--------------------------------------------------------
+    <!--title主色调-->
+    <color name="background_color">#FFF</color>
+    <!--title字体色调-->
+    <color name="title_text_color">#000</color>
+    <!--洋李色 -->
+    <color name="gainsboro">#DCDCDC</color>
+    <!--正文颜色-->
+    <color name="all_text_color">#434343</color>
+    <!--白色背景颜色-->
+    <color name="white_bg_color">#F4F4F4</color>
+    <!--跟随主题的按钮颜色   正常色和按下之后的颜色-->
+    <color name="button_color">#30C0B5</color>
+
+    <color name="button_color_pressed">#008080</color>
+    <!-- 所有淡色灰一律使用的亮灰色 -->
+    <color name="lightgray">#D3D3D3</color>
+    <!-- 白色按钮-->
+    <color name="white_button">#FFF</color>
+
+    <color name="white_button_pressed">#D3D3D3</color>
+    <!-- 退出红色-->
+    <color name="red_exit">#c13343</color>
+    ----------------------程序中使用的颜色2--------------------------------------------------------
+    <color name="statusBarTranslucent">#00ffffff</color>
+</resources>

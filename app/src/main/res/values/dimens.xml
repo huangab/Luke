@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
+    <dimen name="fab_margin_bottom">60dp</dimen>
+    <dimen name="fab_margin_right">15dp</dimen>
+    <dimen name="header_height">50dp</dimen>
+    <dimen name="me_title_height">60dp</dimen>
+    <!-- 按钮字体大小-->
+    <dimen name="button_size">14sp</dimen>
+    <!--首页图标大小-->
+    <dimen name="activity_home_title_icon">30dp</dimen>
+    <!--首页图标下文字-->
+    <dimen name="activity_home_title_text">12dp</dimen>
+    ----------------------------------------------
+    <!--todo 以下为中号字体-->
+
+    <dimen name="title_font">16dp</dimen>
+
+    <dimen name="text_03">16sp</dimen>
+    <!--用于加强加大文字  目前用到的地方:我的装修信息    -->
+    <dimen name="text_04">14sp</dimen>
+    <!--用于大部分文字  目前用到的地方:登陆模块    dialog一级文字-->
+
+    <dimen name="text_05">12sp</dimen>
+    <!--用于大部分文字   目前用到的地方: 首页正文 dialog二级文字-->
+
+    <dimen name="text_06">11sp</dimen>
+    <!--用于大部分文字 目前用到的地方:title返回按钮文字-->
+
+    ----------------------------------------------
+    <!--todo 以下为所有单条Item高度-->
+    <dimen name="item_hight">50dp</dimen>
+    <dimen name="item_hight_max">70dp</dimen>
+    <!--todo 以下为所有按钮高度-->
+    <dimen name="button_hight">40dp</dimen>
+</resources>

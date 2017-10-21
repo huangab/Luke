@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <include layout="@layout/title"/>
+    <EditText
+        android:id="@+id/et_reset_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/login_main_et_username"
+        android:background="@drawable/selector_top_bottom_white"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/et_reset_newPwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/login_reset_newpwd"
+        android:background="@drawable/selector_top_bottom_white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_reset_getcode"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:hint="@string/login_forget_verification"
+            android:background="@drawable/selector_top_bottom_white"
+            android:layout_marginLeft="20dp"
+            android:inputType="textPersonName"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btn_reset_getcode"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/login_forget_getcode"
+            android:layout_marginLeft="10dp"
+            android:textSize="8sp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/login_btn_stype"
+            android:layout_gravity="center"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_main_bt_login"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/login_btn_stype"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
+
+
+

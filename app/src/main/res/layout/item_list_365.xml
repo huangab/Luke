@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="220dp"
+              android:layout_marginLeft="7dp"
+              android:layout_marginTop="6dp"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fra"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/list_third"
+            android:id="@+id/sd_365_art"
+            android:scaleType="centerCrop"
+            fresco:progressBarAutoRotateInterval="1000"
+            fresco:progressBarImage="@drawable/loading_big"
+            fresco:progressBarImageScaleType="centerInside"
+            fresco:placeholderImage="@drawable/placeholder_disk_300"
+            fresco:placeholderImageScaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:background="#73000000"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="right"
+                android:src="@drawable/index_icn_earphone"
+                />
+
+            <TextView
+                android:id="@+id/tv_365_listencount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="right"
+                android:text="30"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_365_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="3000000"
+        android:textColor="@color/text_color_normal"
+        android:textSize="@dimen/text_03"/>
+
+    <TextView
+        android:id="@+id/tv_365_subname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="3000000"
+        android:textColor="@color/tab_text_normal"
+        android:textSize="@dimen/text_04"/>
+
+    <TextView
+        android:id="@+id/tv_365_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="3000000"
+        android:textColor="@color/home_price_color"
+        android:textSize="@dimen/text_04"/>
+</LinearLayout>

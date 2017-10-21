@@ -1,0 +1,134 @@
+{
+    "android_gradle_plugin_version": "2.3.2",
+    "apk_path": "E:\\demo\\Luke\\app\\build\\outputs\\apk\\app-debug.apk",
+    "apt": {
+        "app": {
+            "aptArgs": [
+                
+            ],
+            "aptOutput": "E:\\demo\\Luke\\app\\build\\generated\\source\\apt\\debug",
+            "disableDiscovery": false,
+            "enabled": true,
+            "processor": null,
+            "processorPath": "C:\\Users\\Administrator\\.android\\build-cache\\fc38f4a066f635967c936ae3e6b1dad3f969fd84\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\4328a5d5a54b3e0083eeac6e47d15b17e80dd4fc\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\c4e264fc414c201f60fc6080a124b9da4b1281c8\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\8bb298cbf666bd7b2c39f14ae096e28634598493\\output\\jars\\classes.jar;D:\\007\\Android\\sdk\\extras\\m2repository\\com\\android\\support\\constraint\\constraint-layout-solver\\1.0.2\\constraint-layout-solver-1.0.2.jar;C:\\Users\\Administrator\\.android\\build-cache\\58564684827dfc01375f5f7d7ea1aa0f789ea1c4\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\com.jakewharton\\butterknife-annotations\\8.5.1\\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\\butterknife-annotations-8.5.1.jar;C:\\Users\\Administrator\\.android\\build-cache\\e9de74bc53ff992d7c90425c96a5fb00b82878ab\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\com.github.bumptech.glide\\glide\\3.7.0\\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\\glide-3.7.0.jar;C:\\Users\\Administrator\\.android\\build-cache\\6fb74aa6d7402227a49b60eeb1bfe1973385271f\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\cfdfa16b616bcce6901c92e3e0c8ccb464e00345\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\cfdfa16b616bcce6901c92e3e0c8ccb464e00345\\output\\jars\\libs\\BmobSDK_3.5.0_20160630.jar;C:\\Users\\Administrator\\.android\\build-cache\\cfdfa16b616bcce6901c92e3e0c8ccb464e00345\\output\\jars\\libs\\gson-2.6.2.jar;C:\\Users\\Administrator\\.android\\build-cache\\cfdfa16b616bcce6901c92e3e0c8ccb464e00345\\output\\jars\\libs\\okhttp-3.3.1.jar;C:\\Users\\Administrator\\.android\\build-cache\\cfdfa16b616bcce6901c92e3e0c8ccb464e00345\\output\\jars\\libs\\okio-1.7.0.jar;C:\\Users\\Administrator\\.android\\build-cache\\cfdfa16b616bcce6901c92e3e0c8ccb464e00345\\output\\jars\\libs\\rxandroid-1.2.0.jar;C:\\Users\\Administrator\\.android\\build-cache\\cfdfa16b616bcce6901c92e3e0c8ccb464e00345\\output\\jars\\libs\\rxjava-1.1.6.jar;C:\\Users\\Administrator\\.android\\build-cache\\df1986a19d12b818a486f6c83b2dded6a5eb5711\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\5fdaeed05a53e6f49f27673db62e4dc598171928\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\a84eae6dd3b829469c30a636f5471b6ad0e89b35\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\639867fe60a14fba4c0492dd27edd806867dd15f\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\7c1aabc680cb82d559440d03b79af9e72ff91eb2\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\9f977f9dcd9357429bb06082b81bba0289dc0e1f\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\9d46330a34a6583c63fed2a7d2e9da50b1191ea2\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\337aaf4e00d7596acca9a4313e2bd8eb7b658fec\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\1f7f3b83f00401e3521b8512661979699331d6fb\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\f733f1f6d91bd7d36d4e3802f7aff41b483af131\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\b4bd0853f444014a7f270ef022a190a4ffb4843f\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\f97e2de856806f6d4593563464b5a7b75729343c\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\8e3348ccfc38433553eb49b034ee96a38329c703\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.android\\build-cache\\f15c589d6aae20ad63ccca0ae0f0e39b5c5d22c1\\output\\jars\\classes.jar;D:\\007\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\support-annotations\\25.3.1\\support-annotations-25.3.1.jar;C:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\com.alibaba\\fastjson\\1.2.31\\1ca964122c53f03f6fc3938b58c16d63b40490ab\\fastjson-1.2.31.jar;C:\\Users\\Administrator\\.android\\build-cache\\a4d39eb3c6ce8fd492b46ae8f6a258aafdc94d0b\\output\\jars\\classes.jar;C:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\com.jakewharton\\butterknife-compiler\\8.5.1\\76253d53698d5a93191ebf72534e9eeb7391b5c3\\butterknife-compiler-8.5.1.jar;C:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\com.google.auto.service\\auto-service\\1.0-rc2\\51033a5b8fcf7039159e35b6878f106ccd5fb35f\\auto-service-1.0-rc2.jar;C:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\com.google.auto\\auto-common\\0.6\\cf7212b0f8bfef12657b942df8f4f2cf032d3f41\\auto-common-0.6.jar;C:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup\\javapoet\\1.8.0\\e858dc62ef484048540d27d36f3ec2177a3fa9b1\\javapoet-1.8.0.jar;D:\\007\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\support-annotations\\25.1.0\\support-annotations-25.1.0.jar;C:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\guava\\18.0\\cce0823396aa693798f8882e64213b1772032b09\\guava-18.0.jar"
+        }
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": true
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "E:\\demo\\Luke\\app\\build\\freeline",
+    "build_directory": "E:\\demo\\Luke\\app\\build",
+    "build_script": "gradlew.bat :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "D:\\007\\Android\\sdk\\build-tools\\25.0.2",
+    "build_tools_version": "25.0.2",
+    "check_sources_md5": [
+        
+    ],
+    "compile_sdk_directory": "D:\\007\\Android\\sdk\\platforms\\android-25",
+    "compile_sdk_version": "android-25",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "com.hyp.luke",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "E:\\demo\\Luke",
+    "freeline_gradle_plugin_version": "0.8.7",
+    "ignore_resource_ids": [
+        "avd_hide_password_1",
+        "avd_hide_password_2",
+        "avd_hide_password_3",
+        "avd_show_password_1",
+        "avd_show_password_2",
+        "avd_show_password_3"
+    ],
+    "java_home": "C:\\Program Files\\Java\\jdk1.8.0_60",
+    "launcher": "com.hyp.luke.ui.activity.MainActivity",
+    "main_assets_directory": [
+        "E:\\demo\\Luke\\app\\src\\debug\\assets",
+        "E:\\demo\\Luke\\app\\src\\main\\assets"
+    ],
+    "main_jniLibs_directory": [
+        "E:\\demo\\Luke\\app\\src\\debug\\jniLibs",
+        "E:\\demo\\Luke\\app\\src\\main\\jniLibs"
+    ],
+    "main_jni_directory": [
+        "E:\\demo\\Luke\\app\\src\\debug\\jni",
+        "E:\\demo\\Luke\\app\\src\\main\\jni"
+    ],
+    "main_manifest_path": "E:\\demo\\Luke\\app\\src\\main\\AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "E:\\demo\\Luke\\app\\build\\generated\\source\\r\\debug\\R.java",
+    "main_res_directory": [
+        "E:\\demo\\Luke\\app\\src\\debug\\res",
+        "E:\\demo\\Luke\\app\\src\\main\\res"
+    ],
+    "main_src_directory": [
+        "E:\\demo\\Luke\\app\\src\\debug\\java",
+        "E:\\demo\\Luke\\app\\src\\main\\java"
+    ],
+    "module_dependencies": {
+        "app": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "E:\\demo\\Luke\\app"
+        }
+    ],
+    "package": "com.hyp.luke",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "E:\\demo\\Luke\\app\\src\\debug\\assets",
+                "E:\\demo\\Luke\\app\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\demo\\Luke\\app\\src\\debug\\jniLibs",
+                "E:\\demo\\Luke\\app\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "E:\\demo\\Luke\\app\\src\\debug\\jni",
+                "E:\\demo\\Luke\\app\\src\\main\\jni"
+            ],
+            "main_manifest_path": "E:\\demo\\Luke\\app\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "E:\\demo\\Luke\\app\\src\\debug\\res",
+                "E:\\demo\\Luke\\app\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "E:\\demo\\Luke\\app\\src\\debug\\java",
+                "E:\\demo\\Luke\\app\\src\\main\\java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        "app": {
+            "enabled": true,
+            "mainClass": "net.orfjackal.retrolambda.Main",
+            "rtJar": "C:\\Program Files\\Java\\jdk1.8.0_60/jre/lib/rt.jar",
+            "supportIncludeFiles": false,
+            "targetJar": "C:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\net.orfjackal.retrolambda\\retrolambda\\2.0.3\\7f5a437360af86ab69eb9ad55fc19c729b312e38\\retrolambda-2.0.3.jar"
+        }
+    },
+    "root_dir": "E:\\demo\\Luke",
+    "sdk_directory": "D:\\007\\Android\\sdk",
+    "use_jdk8": true,
+    "use_system_gradle": false
+}

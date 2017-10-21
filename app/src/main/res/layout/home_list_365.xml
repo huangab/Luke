@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tool="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+               android:orientation="vertical"
+              android:gravity="center"
+                android:background="@color/white">
+
+
+
+    <TextView
+        android:id="@+id/tv_365_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="一千零一夜"
+        android:textColor="@color/text_color_normal"
+        android:textSize="@dimen/text_04"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tv_365_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_category_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:text="在好故事里学常识"
+        android:textColor="@color/tab_text_normal"
+        android:textSize="@dimen/text_05"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_home_365"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:nestedScrollingEnabled="false"
+        android:layout_below="@+id/tv_category_subtitle"
+        android:background="@color/white"/>
+</LinearLayout>

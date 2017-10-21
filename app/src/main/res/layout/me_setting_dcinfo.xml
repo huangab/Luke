@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="@color/white_bg_color">
+
+    <include layout="@layout/title"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tab_text_normal"
+                android:text="我的装修信息"/>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_hight_max"
+                android:layout_marginBottom="2px"
+                android:layout_weight="1"
+                android:background="@drawable/selector_top_white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="所在城市"
+                    android:textColor="@color/all_text_color"
+                    android:textSize="@dimen/text_04"/>
+
+                <TextView
+                    android:id="@+id/tv_dcinfo_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/text_03"
+                    android:gravity="center"
+                    android:textColor="@color/title_text_color"
+                    android:textStyle="bold"
+                    android:text="厦门市"/>
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@mipmap/new_per_center_right"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_hight_max"
+                android:layout_marginBottom="2px"
+                android:layout_weight="1"
+                android:background="@drawable/selector_top_white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="房屋类型"
+                    android:textColor="@color/all_text_color"
+                    android:textSize="@dimen/text_04"/>
+
+                <TextView
+                    android:id="@+id/tv_dcinfo_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:text="别墅"
+                    android:textStyle="bold"
+                    android:textColor="@color/title_text_color"
+                    android:textSize="@dimen/text_03"/>
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@mipmap/new_per_center_right"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_hight_max"
+                android:layout_marginBottom="2px"
+                android:layout_weight="1"
+                android:background="@drawable/selector_top_white"
+                android:gravity="center"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="面积(㎡)"
+                    android:textColor="@color/all_text_color"
+                    android:textSize="@dimen/text_04"/>
+
+
+                <EditText
+                    android:id="@+id/tv_dcinfo_area"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/text_03"
+                    android:textColor="@color/title_text_color"
+                    android:numeric="integer"
+                    android:textStyle="bold"
+                    android:text="0"/>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_hight_max"
+                android:layout_marginBottom="2px"
+                android:layout_weight="1"
+                android:background="@drawable/selector_top_white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+           <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="预算（万）"
+                    android:textColor="@color/all_text_color"
+                    android:textSize="@dimen/text_04"/>
+
+                <EditText
+                    android:id="@+id/tv_dcinfo_budget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/text_03"
+                    android:textColor="@color/title_text_color"
+                    android:text="200"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_hight_max"
+                android:layout_marginBottom="2px"
+                android:layout_weight="1"
+                android:background="@drawable/selector_top_white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="风格偏好"
+                    android:textColor="@color/all_text_color"
+                    android:textSize="@dimen/text_04"/>
+
+                <TextView
+                    android:id="@+id/tv_dcinfo_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/text_03"
+                    android:textStyle="bold"
+                    android:textColor="@color/title_text_color"
+                    android:text="简约"/>
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@mipmap/new_per_center_right"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_hight_max"
+                android:layout_marginBottom="2px"
+                android:layout_weight="1"
+                android:background="@drawable/selector_top_white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="愿意被设计师主动询问"
+                    android:textColor="@color/all_text_color"
+                    android:textSize="@dimen/text_04"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:maxWidth="200dp"
+                    android:text="设计师会根据您所公开的装修需求，主动联系到您。"
+                    android:textColor="@color/tab_text_normal"
+                    android:textSize="@dimen/text_04"/>
+</LinearLayout>
+                <com.kyleduo.switchbutton.SwitchButton
+                    android:id="@+id/sb_dcinfo_switch"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:textColor="@drawable/select_switch_state_color"
+                    android:textSize="16dp"
+                    app:kswTextOff="Off"
+                    app:kswTextOn="On"
+                    app:kswTintColor="@color/button_color"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

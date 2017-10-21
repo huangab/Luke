@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/bg_color">
+
+    <include layout="@layout/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:id="@+id/ll_about_agreement"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_hight"
+            android:background="@drawable/selector_top_white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="2px">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="用户协议"
+                android:textColor="@color/all_text_color"
+                android:textSize="@dimen/text_04"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_about_contact"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_hight"
+            android:background="@drawable/selector_top_white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="2px">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="联系我们"
+                android:textColor="@color/all_text_color"
+                android:textSize="@dimen/text_04"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_about_standard"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_hight"
+            android:background="@drawable/selector_top_bottom_white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="社区规范"
+                android:textColor="@color/all_text_color"
+                android:textSize="@dimen/text_04"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
